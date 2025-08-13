@@ -1,0 +1,48 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+html,body{
+   height: 100%;
+   width: 100%;
+}
+
+#main{
+    height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    background-color: #fae5e5;
+}
+
+.shape{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    border:1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rect{
+    display: flex;
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#curser{
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: #d6fed6;
+    position: absolute;
+}
